@@ -33,8 +33,8 @@ public class Main {
     public static int generateRandomTemrerature() {
 
         Random random = new Random();
-        int temp = random.nextInt(45);
-        return temp - 35;
+        int temp = random.nextInt(70);
+        return temp - 25;
     }
     public static void recommendation(){
         int age = generateRandomAge();
